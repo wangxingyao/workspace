@@ -1,0 +1,27 @@
+创建数据库
+CREATE TABLE `jsptask32` (
+  `number` int(11) NOT NULL AUTO_INCREMENT,
+  `name` char(20) NOT NULL,
+  `birthday` date NOT NULL,
+  `email` char(50) NOT NULL,
+  PRIMARY KEY (`number`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+插入数据
+INSERT INTO `jsptask32` VALUES 
+	('001', '张小林', '1989-02-12', 'yy@sina.com'), 
+	('002', '李小明', '1999-10-10', 'tt@163.com'), 
+	('003', '围大好', '1999-09-12', 'yy@188.com');
+	
+CREATE TABLE `car` (
+	`id` int unsigned NOT NULL auto_increment,
+	`license` char(20) NOT NULL unique,
+	`brand` char(50) NOT NULL,
+	`date` char(20) NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+INSERT INTO `car` (license, brand, date)VALUES 
+	('陕A11111', '奔驰', '1989.1'), 
+	('陕A22222', 'BYD', '1999.10'), 
+	('陕A33333', '奥迪', '1999.9');
