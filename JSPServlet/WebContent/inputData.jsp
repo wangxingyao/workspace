@@ -6,7 +6,29 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body bgcolor="pink">
+
+<form action="">
+	等差数列求和:<br/>
+	输入首项:
+	<input type="text"/>
+	输入公差:
+	<input type="text"/>
+	求和项数:
+	<input type="text"/>
+	<input type="submit" value="提交">
+</form>
+<br/>
+<form action="">
+	等比数列求和:<br/>
+	输入首项:
+	<input type="text"/>
+	输入公比:
+	<input type="text"/>
+	求和项数:
+	<input type="text"/>
+	<input type="submit" value="提交">
+</form>
 
 </body>
 </html>

@@ -16,7 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/HelloServlet")
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+    double sum=0, i=1, j=1;
+    int number = 0;
+	
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -43,15 +45,21 @@ public class HelloServlet extends HttpServlet {
 	}
 
 	
-//	public void init(ServletConfig config) throws ServletException {
-//		super.init(config);
-//	}
-//	
-//	public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
-//		response.setContentType("text/html;charset=GB2312");
-//		PrintWriter out = response.getWriter();
-//		out.println("<html><body>");
-//		out.println("<h2>我喜欢杨乔英</h2>");
-//		out.println("</body></html>");
-//	}
+	public void init(ServletConfig config) throws ServletException {
+		super.init(config);
+	}
+	
+	public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		response.setContentType("text/html;charset=GB2312");
+		PrintWriter out = response.getWriter();
+		out.println("<html><body>");
+		number++;
+		sum += i / j;
+		i = -i;
+		j += 2;
+		out.println("servlet:" + getServletName() + "已经被请求了" + number + "次");
+		out.println("<br>现在PI值是: ");
+		out.println(4*sum);
+		out.println("</body></html>");
+	}
 }

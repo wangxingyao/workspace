@@ -13,6 +13,6 @@
   <servlet-mapping>  
     <servlet-name>HelloServlet</servlet-name>  
     <!-- 访问的网址 -->  
-    <url-pattern>/JSPServlet/HelloServlet</url-pattern>  
-    </servlet-mapping>  
+    <url-pattern>/getString</url-pattern>  
+  </servlet-mapping>  
 </web-app> 
