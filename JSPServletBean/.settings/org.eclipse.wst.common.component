@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="JSPServlet">
+    <wb-module deploy-name="JSPServletBean">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="JSPServlet"/>
-        <property name="java-output-path" value="/JSPServlet/build/classes"/>
+        <property name="java-output-path" value="/JSPServletBean/build/classes"/>
+        <property name="context-root" value="JSPServletBean"/>
     </wb-module>
 </project-modules>

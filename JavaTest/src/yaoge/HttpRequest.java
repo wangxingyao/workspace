@@ -126,11 +126,11 @@ public class HttpRequest {
     
     public static void main(String[] args) {
         //发送 GET 请求
-        String s=HttpRequest.sendGet("http://localhost:5000", "");
+        String s=HttpRequest.sendGet("http://123.206.41.153:5000", "");
         System.out.println(s);
         
         //发送 POST 请求
-        String sr=HttpRequest.sendPost("http://localhost:5000/login", "tname=wang&password=123");
+        String sr=HttpRequest.sendPost("http://123.206.41.153:5000/login", "tname=wang&password=123");
         System.out.println(sr);
     }
 }
