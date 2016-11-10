@@ -1,0 +1,12 @@
+CREATE TABLE `member` (
+	`logname` char(100) NOT NULL unique,
+	`password` char(100) NOT NULL,
+	`phone` char(100),
+	`email` char(200),
+	`message` char(200),
+	`pic` char(200),
+	PRIMARY KEY (logname)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `member` (logname, password)VALUES  
+	('wang', '123');
