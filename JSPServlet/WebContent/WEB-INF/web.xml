@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
   <servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>com.yaoge.HelloServlet</servlet-class>
+    <servlet-name>ComputerSum</servlet-name>
+    <servlet-class>com.yaoge.ComputerSum</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/getString</url-pattern>
+    <servlet-name>ComputerSum</servlet-name>
+    <url-pattern>/computerSum</url-pattern>
   </servlet-mapping>
 </web-app>
